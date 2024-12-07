@@ -6,7 +6,7 @@ import pickle
 # Initialize the Flask app
 app = Flask(__name__)
 
-# Load the pre-trained model pipeline (replace 'model.pkl' with your actual model file path)
+# Load the pre-trained model pipeline 
 model = pickle.load(open('model.pkl', 'rb'))
 
 @app.route('/')
